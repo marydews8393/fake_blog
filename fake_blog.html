@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin Rentals</title>
+</head>
+<body>
+    <h1>Welcome to Martin Rentals</h1>
+    <a href="https://imgur.com/2UthHLS"><img src="https://i.imgur.com/2UthHLS.jpg" title="source: imgur.com" /></a>
+    <p>We have been in buisness for over 3 years now. We own rentals in Idaho and in Tennessee. Please take a look around our site to view our properties.</p>   
+
+    <p>Rental Properties</p>
+    <ul>
+        <li>4232 Victory Street - Chattanooga, TN</li>
+        <li>10435 W Seneca Dr - Boise, ID</li>
+    </ul>
+    
+    <table style="width:100%">
+        <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mary</td>
+                <td>Dews</td>
+                <td>27</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Ty</td>
+                <td>Martin</td>
+                <td>32</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>Please fill out the form below to help us place you in the best rental for you!</p>
+    <form action="submit">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name">
+        <br>
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <p>Where do you live?</p>
+            <label for="Idaho">Boise, ID</label>
+            <input type="radio" id="Idaho" name="location" value="Boise, ID">
+            <label for="Tennessee">Chattannoga, TN</label>
+            <input type="radio" id="Tennessee" name="location" value="Chattanooga, TN">
+            <label for="otherLocation">Other</label>
+            <input type="radio" id="otherLocation" name="location" value="Other">
+            <br>
+        <p>How did you hear about us?</p>
+            <label for="Word">Word of Mouth</label>
+            <input type="checkbox" id="Word" name="hearing">
+            <br>
+            <label for="facebook">Facebook</label>
+            <input type="checkbox" id="facebook" name="hearing">
+            <br>
+            <label for="Google">Google</label>
+            <input type="checkbox" id="Google" name="hearing">
+            <br>
+            <label for="Ad">Ad</label>
+            <input type="checkbox" id="Ad" name="hearing">
+            <br>
+            <label for="otherHearing">Other</label>
+            <input type="text" id="otherHearing" name="hearing">
+            <br>
+        <p>Tell us a little about yourself!</p>
+            <textarea name="description" id="description" cols="30" rows="10"></textarea>
+            <br>
+        <input type="submit" value="submit">
+
+    </form>
+
+    
+</body>
+
+</html>
